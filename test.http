@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/v1/users
+
+###
+POST http://localhost:3001/api/v1/users
+content-type: application/json
+
+{
+    "name": "test",
+    "age": 30
+}
+
+###
+DELETE http://localhost:3001/api/v1/users/12334s
